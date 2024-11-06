@@ -1,0 +1,96 @@
+# General Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Logs
+*.log
+*.tflite
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS specific files
+*.DS_Store
+
+# React Native specific
+.expo/
+.expo-shared/
+android/app/build/
+ios/Pods/
+ios/build/
+android/.gradle/
+android/app/src/main/jniLibs/
+android/app/src/main/assets/index.android.bundle
+
+# Metro, Bundling, and Temp files
+.expo/
+*.expo
+*.expo-shared
+.expo-shared/assets.json
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+bundles/
+dist/
+# Temporary files
+*.tmp
+*.temp
+# React Native debug files
+*.watchmanconfig
+.gradle/
+gradle/
+
+# Xcode
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+!default.mode1v3
+!default.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Android/IntelliJ
+*.iml
+.idea/
+*.apk
+*.ap_
+local.properties
+.env
+
+# NPM package locks (optional)
+package-lock.json
+yarn.lock
+
+# Build artifacts
+build/
+temp/
+
+# Test coverage reports
+coverage/
+
+# Temporary files created by React Native CLI
+.rncache/
+
+# Miscellaneous
+*.tmp
+*.temp
+# Project-specific secrets and environment files
+.env*

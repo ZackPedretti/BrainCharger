@@ -96,7 +96,7 @@ export default function HomeScreen() {
             <TouchableOpacity style={styles.button} onPress={handleTimerButtonPress}>
                 <Text style={styles.buttonText}>{buttonText}</Text>
             </TouchableOpacity>
-            <Text>Remaining time: {formatTime()}</Text>
+            <Text style={styles.remainingTimeText}>Remaining time: <Text style={styles.bold}>{formatTime()}</Text></Text>
             <TimerPickerModal
                 visible={showPicker}
                 setIsVisible={setShowPicker}
@@ -167,5 +167,14 @@ const styles = StyleSheet.create({
         height: 300,
         marginHorizontal: "auto",
         marginVertical: 50,
+    },
+    remainingTimeText: {
+        fontSize: 24,
+        textAlign: 'center',
+        paddingVertical: 10,
+    },
+    bold : {
+        fontWeight: 'bold',
     }
+
 });
